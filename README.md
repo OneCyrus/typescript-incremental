@@ -1,3 +1,7 @@
+## prepare
+
+install deps with ```yarn```
+
 ## tsbuildinfo
 
 ```yarn tsc``` generates a tsbuildinfo-file
