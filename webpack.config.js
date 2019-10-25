@@ -45,7 +45,7 @@ module.exports = (env, options) => {
             {
               loader: "babel-loader",
               options: {
-                cacheDirectory: true,
+                cacheDirectory: false,
                 babelrc: true
               }
             },
@@ -63,9 +63,9 @@ module.exports = (env, options) => {
       ]
     },
     plugins: [
-      new ForkTsCheckerWebpackPlugin({
+     /*  new ForkTsCheckerWebpackPlugin({
         tsconfig: path.resolve(__dirname, "tsconfig.json")
-      }),
+      }), */
       new HtmlWebpackPlugin({
         template: "index.html"
       })

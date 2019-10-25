@@ -5,9 +5,8 @@
   "description": "typescript-incremental",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "webpack-dev-server --watch --debug --output-pathinfo --history-api-fallback --hot --inline --progress --colors --port 3000 --mode development",
-    "startprod": "webpack-dev-server --output-pathinfo --history-api-fallback --inline --progress --colors --port 3000 --mode production"
+    "start": "webpack --mode development",
+    "startServer": "webpack-dev-server --watch --debug --output-pathinfo --history-api-fallback --hot --inline --progress --colors --port 3000 --mode development"
   },
   "license": "MIT",
   "dependencies": {
