@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "noEmit": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": false, // we need comments in webpack for chunknames    
+    "experimentalDecorators": false,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+    "lib": [
+      "es6",
+      "es7",
+      "esnext",
+      "dom",
+      "es2017"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}
