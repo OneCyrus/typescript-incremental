@@ -53,7 +53,7 @@ module.exports = (env, options) => {
               loader: "ts-loader",
               options: {
                 experimentalWatchApi: true,
-                transpileOnly: true,
+                // transpileOnly: true,
                 logLevel: "info",
                 configFile: "tsconfig.json"
               }
